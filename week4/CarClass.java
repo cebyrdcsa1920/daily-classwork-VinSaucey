@@ -14,7 +14,7 @@ public class CarClass
         color = Color.YELLOW;
         numPassengers = 5;
         amountOfGas = 12.5;
-        mpg= 21;
+        mpg= 21.0;
     }
 
     /**
@@ -27,6 +27,12 @@ public class CarClass
     {
         amountOfGas -= distance / mpg;
     }
+
+    /**
+     * Gets the amount of gas in the tank
+     *
+     * @return amount of gas
+     */
 
     public double getAmountOfGas()
     {
