@@ -8,5 +8,8 @@ public class CarRunner
         System.out.println(myMustang.getAmountOfGas());
         myMustang.drive(100.5);
         System.out.println(myMustang.getAmountOfGas());
+        myMustang.fillMeUp(9);
+        System.out.println(myMustang.getAmountOfGas());
+        CarClass myMinivan = new CarClass();
     }
 }
