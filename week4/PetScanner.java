@@ -4,7 +4,7 @@ public class PetScanner
     {
         PetClass myChicken = new PetClass();
 
-        myChicken.eat(0.29);
+        myChicken.eat(1.5);
         System.out.println(myChicken.getWeight());
     }
 }
