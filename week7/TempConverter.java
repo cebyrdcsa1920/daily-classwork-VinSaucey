@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class TempConverter
 {
     private double temperature;
@@ -43,7 +45,21 @@ public class TempConverter
 
     public static void main(String[] args)
     {
+        /*
         TempConverter myTemp = new TempConverter(25.6);
+        System.out.println(myTemp);
+        myTemp.convertToF();
+        System.out.println(myTemp);
+        myTemp.convertToC();
+        System.out.println(myTemp);
+        */
+
+        Scanner kboard = new Scanner(System.in);
+        System.out.println("Enter a temperature in Celsius");
+        double input = kboard.nextDouble();
+        kboard.nextLine();
+        System.out.println(input);
+        TempConverter myTemp = new TempConverter(input);
         System.out.println(myTemp);
         myTemp.convertToF();
         System.out.println(myTemp);
